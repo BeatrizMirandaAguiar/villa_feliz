@@ -1,0 +1,133 @@
+header{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(66, 39, 91);
+}
+h3{
+    width: 100%;
+    background-color: #fef2e3;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    padding: 4%;
+}
+footer{color: #fef2e3;}
+.logo{
+    width: 16px;
+    height: 16px;
+    float: left;
+    background: url(assets/img/logo.png) center center/16px no-repeat;
+    font-size: 0;
+}
+.video{
+    width: auto;
+    height: 400px;
+    text-align: center;
+}
+.figuras{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    padding: 5%;
+}
+#carousel-ti{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    height: 90%;
+    width: 100%;
+}
+#carousel-text{
+    margin-right: 15%;
+}
+#nome{
+    font-weight: bold;
+    color: #715335;
+}
+#carousel{
+    background-color: #f4f6f6;
+}
+#faixa-inicial{
+    padding-right: 3%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    box-shadow: 1px 1px 1px 1px #ce8c61;
+    align-items: center;
+    background-color: #fef2e3;
+    z-index: 1;
+}
+#carouselExampleCaptions{
+    display:flex;
+    background-color: #197f94;
+    align-items: center;
+    justify-content: space-between;
+}
+#exempleModalLabel0,#exampleModalLabel1, #exempleModalLabel2{
+    color:black;
+}
+#imagens{
+    width: 463.5px;
+    height: 280px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#about{
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f6f6;
+    color: black;
+}
+
+#telefone{
+    width: 50%;
+}
+#contato{
+    display:flex;
+    margin-top: 4%;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f6f6;
+    color: black;
+}
+#mapa{
+    margin-top: 4%;
+    width: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f6f6;
+    color: black;
+}
+#endereco{
+    margin-top: 4%;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f6f6;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.address {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4%;
+}
